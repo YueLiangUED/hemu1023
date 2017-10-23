@@ -1,0 +1,88 @@
+@charset "utf-8";
+.header img {
+    display: block;
+    width: 100%;
+}
+.content-title {
+    position: relative;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin-bottom: 0.35rem;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #ffffff;
+    background-color: #198cc8;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.content-title span {
+    font-weight: 600;
+}
+.content-title:after {
+    position: absolute;
+    content: "";
+    bottom: -0.35rem;
+    left: 50%;
+    margin-left: -0.21rem;
+    width: 0.42rem;
+    height: 0.35rem;
+    background: url("../images/icon_01.png") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 100;
+}
+.content-body-title {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding-left: 0.25rem;
+    padding-top: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+.content-body-title-img img {
+    width: 0.87rem;
+    height: 0.81rem;
+    margin-right: 0.2rem;
+}
+.content-body-title-text {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 0.81rem;
+    font-size: 0.27rem;
+    color: #666;
+}
+.content-body-title-text .font-33 {
+    color: #0097df;
+    font-weight: 700;
+    font-size: 0.33rem;
+    margin-bottom: 0.12rem;
+}
+.content-body-img img {
+    display: block;
+    width: 100%;
+}
+.content-body {
+    margin-top: 0.35rem;
+}
+.tip-text {
+    padding: 0.1rem 0.3rem 0.2rem;
+    line-height: 1.8em;
+    font-size: 0.25rem;
+    color: #666666;
+    border-bottom: 2px solid #c1c1c1;
+}
+.ju-btns {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding: 0.15rem 0.4rem;
+}
+.ju-btns a {
+    width: 3.13rem;
+    line-height: 0.67rem;
+    height: 0.67rem;
+    color: #fff;
+    font-size: 0.26rem;
+    background-color: #ff8138;
+    text-align: center;
+}
