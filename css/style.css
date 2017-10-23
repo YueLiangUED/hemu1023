@@ -16,7 +16,7 @@
     letter-spacing: 2px;
 }
 .content-title span {
-    font-weight: 600;
+    font-weight: 900;
 }
 .content-title:after {
     position: absolute;
@@ -53,7 +53,7 @@
 }
 .content-body-title-text .font-33 {
     color: #0097df;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 0.33rem;
     margin-bottom: 0.12rem;
 }
